@@ -1,0 +1,33 @@
+{
+  "name": "@kiyasov/yoomoney",
+  "version": "1.0.0",
+  "description": "Yoomoney Api",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "test": "babel-node example/index.js",
+    "start": "node heroku/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiyasov/yoomoney.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kiyasov/yoomoney/issues"
+  },
+  "license": "ISC",
+  "author": "Islam Kiyasov",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "qs": "^6.10.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-async-to-generator": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "express": "^4.17.1"
+  }
+}
