@@ -1,6 +1,6 @@
 {
   "name": "@kiyasov/yoomoney",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yoomoney Api",
   "main": "lib/index.js",
   "scripts": {
