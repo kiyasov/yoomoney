@@ -72,4 +72,17 @@ export default class Yoomoney {
       data
     });
   };
+
+  showcaseSearch = async data => {
+    return await this.sendAuthenticatedRequest({
+      url: "/api/showcase-search",
+      data
+    });
+  };
+
+  showcase = async pattern_id => {
+    return await this.sendAuthenticatedRequest({
+      url: `/api/showcase/${pattern_id}`
+    });
+  };
 }

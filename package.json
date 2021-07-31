@@ -1,6 +1,6 @@
 {
   "name": "@kiyasov/yoomoney",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Yoomoney Api",
   "main": "lib/index.js",
   "scripts": {
@@ -22,12 +22,12 @@
     "qs": "^6.10.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.3",
-    "@babel/core": "^7.14.3",
-    "@babel/plugin-proposal-class-properties": "^7.13.0",
-    "@babel/plugin-transform-async-to-generator": "^7.13.0",
-    "@babel/plugin-transform-runtime": "^7.14.3",
-    "@babel/preset-env": "^7.14.4",
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-async-to-generator": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.8",
     "express": "^4.17.1"
   }
 }

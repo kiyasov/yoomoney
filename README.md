@@ -1,4 +1,4 @@
-# qiwi
+# Yoomoney
 
 NodeJS Yoomoney API SDK
 
